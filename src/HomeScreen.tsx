@@ -30,7 +30,6 @@ export default (props: StackScreenProps<StackParamList, "Home">) => {
       <SafeAreaView edges={['bottom', 'left', 'right']}>
         <FlatList
           style={styles.inventoryList}
-          scrollEnabled={true}
           refreshControl={
             <RefreshControl
               refreshing={fetching}
